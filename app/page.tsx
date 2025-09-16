@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -50,6 +51,12 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <Link
+          className="text-blue-600 underline hover:no-underline"
+          href="/photowall"
+        >
+          前往照片墙
+        </Link>
       </main>
     </div>
   );
