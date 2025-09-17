@@ -57,6 +57,12 @@ export default function Home() {
         >
           前往照片墙
         </Link>
+        <Link
+          className="text-blue-600 underline hover:no-underline"
+          href="/me"
+        >
+          前往个人主页
+        </Link>
       </main>
     </div>
   );
