@@ -63,6 +63,13 @@ export default function Home() {
         >
           前往个人主页
         </Link>
+
+        <Link
+          className="text-blue-600 underline hover:no-underline"
+          href="/scientist"
+        >
+          伟大科学家们
+        </Link>
       </main>
     </div>
   );
