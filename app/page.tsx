@@ -65,7 +65,7 @@ export default function Home() {
         </Link>
 
         <Link
-          className="text-blue-600 underline hover:no-underline"
+          className="text-blue-1000 underline hover:no-underline"
           href="/scientist"
         >
           伟大科学家们
