@@ -70,6 +70,13 @@ export default function Home() {
         >
           伟大科学家们
         </Link>
+
+        <Link
+          className="text-blue-1000 underline hover:no-underline"
+          href="/eventbind"
+        >
+          事件绑定
+        </Link>
       </main>
     </div>
   );
