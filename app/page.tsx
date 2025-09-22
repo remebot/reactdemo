@@ -77,6 +77,13 @@ export default function Home() {
         >
           事件绑定
         </Link>
+
+        <Link
+          className="text-blue-1000 underline hover:no-underline"
+          href="/sculpture"
+        >
+          雕塑
+        </Link>
       </main>
     </div>
   );
