@@ -91,6 +91,20 @@ export default function Home() {
         >
           交通灯
         </Link>
+
+        <Link
+          className="text-blue-1000 underline hover:no-underline"
+          href="/movingdot"
+        >
+          移动红点
+        </Link>
+
+        <Link
+          className="text-blue-1000 underline hover:no-underline"
+          href="/formperson"
+        >
+          Person表单
+        </Link>
       </main>
     </div>
   );
