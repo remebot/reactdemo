@@ -84,6 +84,13 @@ export default function Home() {
         >
           雕塑
         </Link>
+
+        <Link
+          className="text-blue-1000 underline hover:no-underline"
+          href="/trafficlight"
+        >
+          交通灯
+        </Link>
       </main>
     </div>
   );
