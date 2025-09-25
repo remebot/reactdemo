@@ -105,6 +105,13 @@ export default function Home() {
         >
           Person表单
         </Link>
+
+        <Link
+          className="text-blue-1000 underline hover:no-underline"
+          href="/stateform"
+        >
+          带状态管理的表单
+        </Link>
       </main>
     </div>
   );
